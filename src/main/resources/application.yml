@@ -1,7 +1,9 @@
+server:
+  port: 9292
+
 spring:
   kafka:
     consumer:
       bootstrap-servers: localhost:9092
-      group-id: 3rd-topic-group-1
-server:
-  port: 9292
+      group-id: 3rd-topic-group-2
+
